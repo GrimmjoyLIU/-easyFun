@@ -1,0 +1,54 @@
+.logo{
+    display: block;
+    height: 60px;
+    line-height: 64px;
+    background-image: url("../image/logo.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+.head_ul{
+    float: right;
+    line-height: 64px;
+}
+.head_ul .head_li{
+    width: 80px;
+    float: left;
+    height: 62px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 62px;
+}
+/*.head_ul .head_li a{
+    display: block;
+
+    height: 64px;
+}*/
+.linkActive{
+    color: gold;
+    font-size: 18px;
+    line-height: 60px;
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid gold;
+}
+.login{
+    text-align: center; /*居中*/
+    line-height: 64px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+.login-form {
+    max-width: 300px;
+    margin: 0 auto; /*居中*/
+}
+.login-form-forgot {
+    float: right;
+}
+.login-form-button {
+    width: 100%;
+}
+.register-button{
+    margin-left: 150px;
+}

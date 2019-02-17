@@ -1,0 +1,59 @@
+.movie-detail{
+    background-image: url("../image/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    padding: 26px 10px 0px 80px;
+}
+.movie-detail-img{
+    width: 220px;
+    height: 324px;
+    float: left;
+    margin-right: 20px;
+}
+.movie-detail-img img{
+    width: 100%;
+    height: 300px
+}
+.movie-detail-info{
+    font-size: 14px;
+    color: white;
+    float: left;
+    width: 600px;
+}
+.movie-summary{
+    font-size: 14px;
+    width: 600px;
+    height: 40px;
+    white-space: nowrap;/*内容超宽后禁止换行显示*/
+    overflow: hidden;/*超出部分隐藏*/
+    text-overflow:ellipsis;/*文字超出部分以省略号显示*/
+}
+.movie-detail-rate{
+    font-size: 30px;
+    float: left;
+    display: inline-block;
+    color: gold;
+}
+.movie-Info-staff{
+    list-style: none;
+}
+.movie-Info-staff li{
+    float: left;
+    margin-right: 25px;
+}
+.movie-Info-staff p{
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+.movie-Info-staff a{
+    width: 128px;
+    height: 170px;
+    display: inline-block;
+}
+.movie-Info-staff a img{
+    width: 100%;
+    height: 100%;
+}
+

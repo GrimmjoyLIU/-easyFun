@@ -1,0 +1,5 @@
+.appContain_base{
+    width: 1200px;
+    margin-left: auto;   /*水平居中*/
+    margin-right: auto;  /*水平居中*/
+}
